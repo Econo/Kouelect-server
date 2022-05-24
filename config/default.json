@@ -1,0 +1,22 @@
+{
+  "debug":"",
+  "env": "development",
+  "morgan": {
+    "enabled": true,
+    "format": "tiny"
+  },
+  "http": {
+    "host": "localhost", 
+    "port": 5000
+  },
+  "db": {
+    "url": "mongodb://localhost:27017",
+    "name": "Kouelect"
+  },
+  "auth": {
+    "secret": "",
+    "tokenExpiresIn": "24h",
+    "cookieMaxAge": 14400000,
+    "saltRounds": 10
+  }
+}
